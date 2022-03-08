@@ -1,0 +1,17 @@
+body {
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+table th, td {
+    border: 1px solid black;
+    color: rgb(46, 41, 41);
+}
+.order-now {
+    color: rgb(46, 41, 41);
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+}

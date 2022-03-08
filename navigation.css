@@ -1,0 +1,45 @@
+.navigation-bar {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+.navigation-bar a {
+    float: left;
+    color: rgb(46, 41, 41);
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-bar a:hover {
+    background-color: ;
+    color: ;
+}
+.navigation-bar a.active {
+    background-color: ;
+    color: ;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa :hover {
+    opacity: 0.7;
+}
+.social_media {
+    float: right;
+}

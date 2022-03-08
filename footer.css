@@ -1,0 +1,18 @@
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px;
+}
+.row :after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.row a {
+    text-decoration: none;
+    color: rgb(46, 41, 41);
+}
+.footer {
+    background-color: whitesmoke;
+}
