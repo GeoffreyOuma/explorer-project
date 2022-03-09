@@ -32,7 +32,7 @@
                     <a target="" href="index_two.php" class=""><b> Login</b></a>
                     <div class="social_media">
                         <a target="" href="" class="fa fa-facebook"></a>
-                        <a target="" href="" class="fa fa-instagram"></a>
+                        <a target="" href="https://www.instagram.com/chef_reagan_otieno/" class="fa fa-instagram"></a>
                         <a target="" href="" class="fa fa-twitter"></a>
                         <a target="" href="" class="fa fa-whatsapp"></a>
                     </div>
@@ -82,7 +82,7 @@
                         <a target="" class="" href="#"> Sign up</a>
                         <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="" class="fa fa-facebook"></a>
                         <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="" class="fa fa-twitter"></a>
-                        <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="" class="fa fa-instagram"></a>
+                        <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="https://www.instagram.com/chef_reagan_otieno/" class="fa fa-instagram"></a>
                     </p>
                 </div>
                 <!-- Copyright-->

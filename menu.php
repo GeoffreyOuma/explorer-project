@@ -14,8 +14,13 @@
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="menu.css">
     <title> menu</title>
+    <style>
+        body {
+            height: auto;
+        }
+    </style>
 </head>
-<body style="background-image: url(); background-size: cover; background-attachment: fixed;">
+<body style="background-image: url(); background-size: cover; background-attachment: fixed; height: 130vh;">
     <header style="" class="" id="">
         <div class="navigation" id="top-horizontal-bar">
             <nav>
@@ -25,11 +30,10 @@
                         <p style="padding: 14px 17px; text-align: center;" class="" id=""> For food's sake, eat!</p>
                     </div>
                     <a target="" href="home.php" class=""><b> Home</b></a>
-                    <a target="" href="#" class=""><b> Menu</b></a>
-                    <a target="" href="#" class=""><b> Services</b></a>
-                    <a target="" href="#" class=""><b> Order</b></a>
-                    <a target="" href="#" class=""><b> About</b></a>
-                    <a target="" href="#" class=""><b> Contact</b></a>
+                    <a target="" href="#" class="active"><b> Menu</b></a>
+                    <a target="" href="services.php" class=""><b> Services</b></a>
+                    <!-- <a target="" href="#" class=""><b> About</b></a> -->
+                    <a target="" href="contact.php" class=""><b> Contact</b></a>
                     <div class="social_media">
                         <a target="" href="" class="fa fa-facebook"></a>
                         <a target="" href="" class="fa fa-instagram"></a>
@@ -58,37 +62,37 @@
                 <td> Chapati</td>
                 <td> 2</td>
                 <td> 40</td>
-                <td><a target="" href="" class="order-now"> Order now</a></td>
+                <td><a target="" href="order.php" class="order-now"> Order now</a></td>
             </tr>
             <tr>
                 <td> Meatballs</td>
                 <td> 1 plate</td>
                 <td> 130</td>
-                <td><a target="" href="" class="order-now"> Order now</a></td>
+                <td><a target="" href="order.php" class="order-now"> Order now</a></td>
             </tr>
             <tr>
                 <td> Pilau</td>
                 <td> 1 plate</td>
                 <td> 100</td>
-                <td><a target="" href="" class="order-now"> Order now</a></td>
+                <td><a target="" href="order.php" class="order-now"> Order now</a></td>
             </tr>
             <tr>
                 <td> Chicken</td>
                 <td> Quarter kg</td>
                 <td> 240</td>
-                <td><a target="" href="" class="order-now"> Order now</a></td>
+                <td><a target="" href="order.php" class="order-now"> Order now</a></td>
             </tr>
             <tr>
                 <td> Coffee</td>
                 <td> 1 cup</td>
                 <td> 30</td>
-                <td><a target="" href="" class="order-now"> Order now</a></td>
+                <td><a target="" href="order.php" class="order-now"> Order now</a></td>
             </tr>
             <tr>
                 <td> Omena Ugali</td>
                 <td> 1 plate</td>
                 <td> 70</td>
-                <td><a target="" href="" class="order-now"> Order now</a></td>
+                <td><a target="" href="order.php" class="order-now"> Order now</a></td>
             </tr>
         </table>
     </main>
@@ -110,17 +114,6 @@
                         <a target="" class="" href=""><b> Online</b></a>
                         <a target="" href=""><b> Visit our shop</b></a>
                         <a target="" class="" href=""><b> text via: +254755 846 298</b></a>
-                    </p>
-                </div>
-                <div class="column" style="text-align: center;">
-                    <h1><b> Our menu</b></h1>
-                    <p>
-                        <a target="" class="" href=""><b> Omena</b></a>
-                        <a target="" class="" href=""><b> Samosa</b></a>
-                        <a target="" class="" href=""><b> Chapo</b></a>
-                        <a target="" class="" href=""><b> Kuku</b></a>
-                        <a target="" class="" href=""><b> Meatballs</b></a>
-                        <a target="" class="" href=""><b> Goat ribs</b></a>
                     </p>
                 </div>
                 <div class="column" style="text-align: center;">

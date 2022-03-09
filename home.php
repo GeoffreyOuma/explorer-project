@@ -39,22 +39,34 @@ exit;
                         <h1 style="padding: 14px 17px; text-align: center;" class="" id=""> Food's Sake</h1>
                         <p style="padding: 14px 17px; text-align: center;" class="" id=""> For food's sake, eat!</p>
                     </div>
-                    <a target="" href="#" class=""><b> Home</b></a>
+                    <a target="" href="#" class="active"><b> Home</b></a>
                     <a target="" href="menu.php" class=""><b> Menu</b></a>
-                    <a target="" href="#" class=""><b> Services</b></a>
+                    <a target="" href="services.php" class=""><b> Services</b></a>
                     <a target="" href="order.php" class=""><b> Order</b></a>
-                    <a target="" href="#" class=""><b> About</b></a>
-                    <a target="" href="#" class=""><b> Contact</b></a>
+                    <!-- <a target="" href="#" class=""><b> About</b></a> -->
+                    <!-- <div class="dropdown">
+                        <button class="dropbtn"><b> About</b>
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#"> Our principles</a>
+                            <a href="#"> Our story</a>
+                            <a href="#"> Our partners</a>
+                            <a href="#"> Our standards</a>
+                        </div> -->
+                    <a target="" href="contact.php" class=""><b> Contact</b></a>
                     <div class="social_media">
                         <a target="" href="" class="fa fa-facebook"></a>
-                        <a target="" href="" class="fa fa-instagram"></a>
-                        <a target="" href="" class="fa fa-twitter"></a>
-                        <a target="" href="" class="fa fa-whatsapp"></a>
+                        <a target="" href="https://www.instagram.com/chef_reagan_otieno/https://www.instagram.com/chef_reagan_otieno/" class="fa fa-instagram"></a>
+                        <a target="" href="https://twitter.com/byGeoffreyOuma" class="fa fa-twitter"></a>
+                        <a target="" href="https://web.whatsapp.com/" class="fa fa-whatsapp"></a>
                     </div>
                 </div>
             </nav>
         </div>
     </header>
+    <script>
+</script>
     <div class="container">
         <h1>
             Hello, <?php echo $userData['username'];?>
@@ -67,43 +79,44 @@ exit;
     <div class="footer">
         <footer id="footer"> <!-- Start of footer content-->
             <div class="row">
+                <h1 style="text-align: center;"> Quick Access</h1>
                 <div class="column" style="text-align: center;">
                     <h1><b> Our Services</b></h1>
                     <p>
-                        <a target="" class="" href=""><b> Catering services</b></a>
-                        <a target="" href=""><b> Private chef services</b></a>
-                        <a target="" class="" href=""><b> House calls</b></a>
-                        <a target="" class="" href=""><b> Master classes</b></a>
+                        <a target="" class="" href="services.php"><b> Catering services</b></a>
+                        <a target="" href="services.php"><b> Private chef services</b></a>
+                        <a target="" class="" href="services.php"><b> House calls</b></a>
+                        <a target="" class="" href="services.php"><b> Master classes</b></a>
                     </p>
                 </div>
                 <div class="column" style="text-align: center;">
                     <h1><b> Order</b></h1>
                     <p>
-                        <a target="" class="" href=""><b> Online</b></a>
-                        <a target="" href=""><b> Visit our shop</b></a>
+                        <a target="" class="" href="order.php"><b> Online</b></a>
+                        <a target="" href="contact.php"><b> Visit our shop</b></a>
                         <a target="" class="" href=""><b> text via: +254755 846 298</b></a>
                     </p>
                 </div>
                 <div class="column" style="text-align: center;">
                     <h1><b> Our menu</b></h1>
                     <p>
-                        <a target="" class="" href=""><b> Omena</b></a>
-                        <a target="" class="" href=""><b> Samosa</b></a>
-                        <a target="" class="" href=""><b> Chapo</b></a>
-                        <a target="" class="" href=""><b> Kuku</b></a>
-                        <a target="" class="" href=""><b> Meatballs</b></a>
-                        <a target="" class="" href=""><b> Goat ribs</b></a>
+                        <a target="" class="" href="menu.php"><b> Omena</b></a>
+                        <a target="" class="" href="menu.php"><b> Samosa</b></a>
+                        <a target="" class="" href="menu.php"><b> Chapo</b></a>
+                        <a target="" class="" href="menu.php"><b> Kuku</b></a>
+                        <a target="" class="" href="menu.php"><b> Meatballs</b></a>
+                        <a target="" class="" href="menu.php"><b> Goat ribs</b></a>
                     </p>
                 </div>
                 <div class="column" style="text-align: center;">
                     <h1><b> Connect with us</b></h1>
                     <p>
-                        <a target="" class="" href="#">bygeoffreyouma@gmail.com</a>
+                        <a target="" class="" href="">bygeoffreyouma@gmail.com</a>
                         <a target="" class="" href="#">Call 0755 846 298</a>
-                        <a target="" class="" href="#"> Sign up</a>
+                        <a target="" class="" href="logout.php"> Log out</a>
                         <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="" class="fa fa-facebook"></a>
-                        <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="" class="fa fa-twitter"></a>
-                        <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="" class="fa fa-instagram"></a>
+                        <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="https://twitter.com/byGeoffreyOuma" class="fa fa-twitter"></a>
+                        <a style="color: rgb(46, 41, 41); font-size: 24px;" target="" href="https://www.instagram.com/chef_reagan_otieno/" class="fa fa-instagram"></a>
                     </p>
                 </div>
                 <!-- Copyright-->
